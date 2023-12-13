@@ -24,3 +24,4 @@ void MoveComponent::update(float deltaTime)
 	position = position + getVelocity() * deltaTime;
 	//Set the transform's position to be the new position.
 	getOwner()->getTransform()->setLocalPosition(position);
+}
